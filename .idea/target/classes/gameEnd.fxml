@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pokeships.endGameController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/won.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="294.0" layoutX="153.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/You-Won.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backMenu" layoutX="249.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleBtn" prefHeight="30.0" prefWidth="102.0" text="Menu" />
+   </children>
+</Pane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="838.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pokeships.HelloController">
+   <children>
+      <ImageView fitHeight="510.0" fitWidth="838.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/bgmenu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="204.0" fitWidth="385.0" layoutX="227.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/menutitle.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="singleBtn" layoutX="35.0" layoutY="332.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="25.0" prefWidth="121.0" text="SinglePlayer" />
+      <Button fx:id="multiBtn" layoutX="35.0" layoutY="365.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="25.0" prefWidth="121.0" text="MultiPlayer" />
+      <Button layoutX="35.0" layoutY="399.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="121.0" text="Options" />
+      <Button fx:id="muteBtn" layoutX="753.0" layoutY="14.0" mnemonicParsing="false" onAction="#toggleSound" prefHeight="25.0" prefWidth="71.0" text="mute" />
+   </children>
+</Pane>
